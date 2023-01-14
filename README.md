@@ -86,6 +86,7 @@ spread_spectrum_enable(enable = True)
 - enables/disables spread spectrum output on PLLA and it's associated clock outputs.
 
 pll_reset() - does a soft reset of both PLL A & B
+
 read_status() - returns the value in the interrupt status sticky register
 clear_status() - clears the interrupt status sticky register
 
